@@ -5,6 +5,6 @@
 #
 echo "安装脚本所需依赖，首次拉库运行一次即可"
 echo "开始安装............"
-npm install
+pnpm install
 
 echo "恭喜，已全部安装完成!"
