@@ -21,6 +21,11 @@
 
 `注意：掘金的cookie大概有一个月以上的有效期，所以需要定期更新Secret`
 
+## 青龙拉取命令
+```
+ql repo git@github.com:kingxjs/public_actions.git "index.js" ".github|dev[^_]" "src" "master" && npm install package.json
+```
+
 `支持的朋友可以给个star`
 
 ## 特别声明
