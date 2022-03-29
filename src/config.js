@@ -1,4 +1,4 @@
-const { COOKIE, USER, PASS, TO, UID, DD_BOT_TOKEN, DD_BOT_SECRET, WORKWX_WEBHOOK } = process.env;
+const { JJ_COOKIE, JJ_USER, JJ_PASS, JJ_TO, JJ_UID, DD_BOT_TOKEN, DD_BOT_SECRET, WORKWX_WEBHOOK } = process.env;
 
 const headers = {
   'content-type': 'application/json; charset=utf-8',
@@ -9,7 +9,7 @@ const headers = {
   'sec-ch-ua-mobile': '?0',
   referer: 'https://juejin.cn/',
   accept: '*/*',
-  cookie: COOKIE
+  cookie: JJ_COOKIE
 };
 
-module.exports = { headers, user: USER, pass: PASS, to: TO, uid: UID, DD_BOT_TOKEN, DD_BOT_SECRET, WORKWX_WEBHOOK };
+module.exports = { headers, user: JJ_USER, pass: JJ_PASS, to: JJ_TO, uid: JJ_UID, DD_BOT_TOKEN, DD_BOT_SECRET, WORKWX_WEBHOOK };
