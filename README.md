@@ -10,11 +10,11 @@
 打开 github 仓库的 Setting，选择 Secrets，新建下列 4 个仓库 Secret
 | key | value | 是否必填 |
 | --- | ---| ---|
-| COOKIE | 值为上面复制掘金的 cookie | 是 |
-| USER | 发送邮件的邮箱地址，该邮箱需要开启 SMTP | 否，如不想邮件提醒，则可随意填一个值 |
-| PASS | 该邮箱的 SMTP 密码 | 否，如不想邮件提醒，则可随意填一个值 |
-| TO | 接收邮件的邮箱 | 否，如不想邮件提醒，则可随意填一个值 |
-| UID | 游戏id `控制台执行( window.__NUXT__.state.auth.user.id )获得` | 否 |
+| JJ_COOKIE | 值为上面复制掘金的 cookie | 是 |
+| JJ_USER | 发送邮件的邮箱地址，该邮箱需要开启 SMTP | 否，如不想邮件提醒，则可随意填一个值 |
+| JJ_PASS | 该邮箱的 SMTP 密码 | 否，如不想邮件提醒，则可随意填一个值 |
+| JJ_TO | 接收邮件的邮箱 | 否，如不想邮件提醒，则可随意填一个值 |
+| JJ_UID | 游戏id `控制台执行( window.__NUXT__.state.auth.user.id )获得` | 否 |
 | DD_BOT_TOKEN | 钉钉机器人token | 否 |
 | DD_BOT_SECRET | 钉钉机器人加签密钥 | 否 |
 | WORKWX_WEBHOOK | 企业微信机器人通知 | 否 |
