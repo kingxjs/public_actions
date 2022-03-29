@@ -1,3 +1,9 @@
+/*
+const $ = new Env('掘金任务');
+[Script]
+cron "1 8 * * *" 
+*/
+
 const sign_in = require('./src/signIn');
 const draw = require('./src/draw');
 const dipLucky = require('./src/dipLucky');
