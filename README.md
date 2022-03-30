@@ -23,7 +23,7 @@
 
 ## 青龙拉取命令
 ```
-ql repo git@github.com:kingxjs/public_actions.git "index.js" ".github|dev[^_]" "src" "master" && npm install package.json
+ql repo https://github.com/kingxjs/public_actions.git "index.js" ".github|dev[^_]" "src|indeps.sh|package.json" "master" && task /ql/scripts/kingxjs_public_actions_master/indeps.sh
 ```
 
 `支持的朋友可以给个star`
